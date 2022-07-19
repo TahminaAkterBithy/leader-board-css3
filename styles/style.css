@@ -111,6 +111,7 @@ hr{
 
 }
 .course-duration, .fa-clock{
+    background-color: rgba(255, 0, 0, 0.119);
     color: #fa0707;
 }
 /* ---------Media Queries--------- */
