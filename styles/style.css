@@ -80,7 +80,7 @@ hr{
     text-decoration: none;
     font-size: 16px;
     font-size: 16px;
-    color: #562EFF;
+    color: #4626b9;
 }
 /* courses styles */
 
@@ -110,6 +110,9 @@ hr{
   color: #AEAEAE;  
 
 }
+.course-duration, .fa-clock{
+    color: #fa0707;
+}
 /* ---------Media Queries--------- */
 /* Mobile Devices */
 @media only screen and (max-width:688px) {
@@ -129,10 +132,10 @@ hr{
         width: 100%;
     }
     .players, .courses{
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 }
-    .blogs{
-        grid-template-columns: repeat(1, 1fr);
-    }
+    /* .blogs{
+        grid-template-columns: repeat(2, 1fr);
+    } */
 
